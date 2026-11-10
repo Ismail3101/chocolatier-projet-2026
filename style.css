@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5b473fe6;
+    width: 100%;
+    padding: 1px 0;
+
+     .logo {
+        width: 100px;
+        padding: 10px;
+
+    }
+
+    
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: beige;
+    margin: 20px;
+}
+
+.hero{
+      background-image: url(assets/chocolatier\ 3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        h1 {
+        font-family: Playfair Display;
+        font-size: 50px;
+        color:rgb(214, 105, 27);
+        text-align: center;
+        padding: top;
+
+        
+    }
+P{
+  font-family:Montserrat; 
+  font-size: 20px;
+  color:black;
+  text-align:center;
+  font-weight: bolder;
+}
+}
+
+
+.bouton {
+    background: wheat;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    display: inline-block;
+}
+.btn-secondary{
+    background-color:beige;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.ombre{
+background-color: rgb(222 203 203 / 34%);
+};
