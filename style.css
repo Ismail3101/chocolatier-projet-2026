@@ -3,7 +3,12 @@ body {
 
 
 }
-
+section{
+padding-bottom: 50px;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -67,11 +72,97 @@ P{
 .btn-secondary{
     background-color:beige;
 }
-.flex{
-    display: flex;
-    justify-content: space-around;
-    gap: 24px;
-}
+
 .ombre{
 background-color: rgb(222 203 203 / 34%);
-};
+}
+.conatiner{
+max-width: 1000px;
+margin:auto;
+
+}
+.flex{
+display: flex;
+justify-content: space-evenly;
+gap: 50px;
+
+
+}
+#promesse{
+background-color:#ffe4c452;
+padding: 50px 0;
+}
+h2{
+text-align: center;
+font-size: 25px;
+color: black;
+}
+ul{
+list-style-type:square;
+padding: 0;
+margin-top: 20px;
+font-size: 20px;;
+}
+h3{
+font-family: 'Times New Roman', Times, serif;
+font-size:18px;
+color: black;
+text-align:center;
+font-weight: 900;
+}
+P{
+font-family: Arial, Helvetica, sans-serif;
+font: size 14px;
+text-align:center;
+}
+
+
+
+
+.container{
+max-width: 1200px;
+margin: auto;
+}
+.service-card{
+ width:400px;
+ border:1px solid;  
+ img{
+    width: 100%;
+ }
+
+}
+.flex{
+display: flex;
+gap: 24px;
+}
+.container{
+max-width:1200px;
+margin:auto;
+}
+.service-card2{
+width: 200px;
+border:1px solid;
+img{
+width:100%;
+}
+}
+.flex{
+display: flex;
+gap: 25px;
+}
+.conatiner{
+max-width:1000px;
+margin: auto;
+}
+.flex{
+display: flex; 
+gap: 25px;   
+}
+.contenu h3{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+.contenu p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
